@@ -1,4 +1,7 @@
 #define BLOCK_SIZE_4KB 4 * 1024
+#define BLOCK_SIZE_8KB 8 * 1024
+#define BLOCK_SIZE_16KB 16 * 1024
+#define BLOCK_SIZE_32KB 32 * 1024
 #define BLOCK_SIZE_64KB 64 * 1024
 #define BLOCK_SIZE_128KB 128 * 1024
 #define BLOCK_SIZE_256KB 256 * 1024
@@ -83,10 +86,18 @@ int main() {
     cout << getSum<vector_type>("bigFile.txt") << endl;\
   }
   RUN(4KB)
+  RUN(8KB)
+  RUN(16KB)
+  RUN(32KB)
   RUN(64KB)
+  RUN(128KB)
+  RUN(256KB)
+  RUN(512KB)
+  RUN(1MB)
   RUN(2MB)
   RUN(4MB)
   RUN(8MB)
+  RUN(16MB)
   RUN(32MB)
   RUN(64MB)
   RUN(128MB)
