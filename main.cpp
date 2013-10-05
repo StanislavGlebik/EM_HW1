@@ -1,3 +1,4 @@
+#define BLOCK_SIZE_4KB 4 * 1024
 #define BLOCK_SIZE_64KB 64 * 1024
 #define BLOCK_SIZE_128KB 128 * 1024
 #define BLOCK_SIZE_256KB 256 * 1024
@@ -10,6 +11,7 @@
 #define BLOCK_SIZE_32MB 32 * 1024 * 1024
 #define BLOCK_SIZE_64MB 64 * 1024 * 1024
 #define BLOCK_SIZE_128MB 128 * 1024 * 1024
+
 
 #include <stxxl.h>
 #include <syscall.h>
@@ -61,7 +63,7 @@ void generateBigFile(const char * filename) {
 
 template <typename VectorType>
 double getSum(const char * filename) {
-  syscall_file file(filename, file::RDONLY);
+  syscall_file file(filename, file::RDONLY || file::DIRECT);
   VectorType v_read(&file);
   double result = 0;
   typedef typename VectorType::const_iterator c_it;
@@ -80,9 +82,13 @@ int main() {
     Profiler profiler;\
     cout << getSum<vector_type>("bigFile.txt") << endl;\
   }
+  RUN(4KB)
+  RUN(64KB)
   RUN(2MB)
   RUN(4MB)
   RUN(8MB)
-  
+  RUN(32MB)
+  RUN(64MB)
+  RUN(128MB)
 }
 
