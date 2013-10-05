@@ -56,16 +56,6 @@ private:
     }
 };
 
-void generateBigFile(const char * filename) {
-
-    syscall_file file(filename, file::WRONLY);
-    stxxl::vector<float> v_write (&file);
-
-    for (int i = 0; i < 1000000000; ++i) {
-      v_write.push_back(1.0);
-    }
-}
-
 template <typename VectorType>
 double getSum(const char * filename) {
   syscall_file file(filename, file::RDONLY || file::DIRECT);
@@ -79,14 +69,19 @@ double getSum(const char * filename) {
   return result;
 }
 
-int main() {
+int main(int argc, char * argv[]) {
+  if (argc < 2) {
+    cout << "No filename!" << endl;
+    return 0;
+  }
   #define RUN(SIZE, BLOCKS_IN_PAGE) \
   {\
     typedef stxxl::VECTOR_GENERATOR<float, BLOCKS_IN_PAGE, 1, BLOCK_SIZE_##SIZE>::result vector_type;\
     cout << #SIZE << " Blocks in page: " << #BLOCKS_IN_PAGE << endl;\
     Profiler profiler;\
-    cout << getSum<vector_type>("bigFile.txt") << endl;\
+    cout << getSum<vector_type>(argv[1]) << endl;\
   }
+
   RUN(4KB, 1)
   RUN(8KB, 1)
   RUN(16KB, 1)

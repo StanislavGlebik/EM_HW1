@@ -12,5 +12,8 @@ CPPFLAGS        += -O3 -Wall -g
 my.bin: main.o
 	$(CXX) $(CXXFLAGS) $(CPPFLAGS) $(LDFLAGS) main.o -o $@ $(LDLIBS)
 
+generator: generateBigFile.o
+	$(CXX) $(CXXFLAGS) $(CPPFLAGS) $(LDFLAGS) generateBigFile.o -o $@ $(LDLIBS)
+
 clean: 
 	rm main.o my.bin
