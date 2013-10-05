@@ -12,6 +12,8 @@
 #define BLOCK_SIZE_8MB 8 * 1024 * 1024
 #define BLOCK_SIZE_16MB 16 * 1024 * 1024
 #define BLOCK_SIZE_32MB 32 * 1024 * 1024
+#define BLOCK_SIZE_34MB 34 * 1024 * 1024
+#define BLOCK_SIZE_36MB 36 * 1024 * 1024
 #define BLOCK_SIZE_64MB 64 * 1024 * 1024
 #define BLOCK_SIZE_128MB 128 * 1024 * 1024
 
@@ -50,7 +52,7 @@ public:
 private:
     void Dump()
     {
-        std::cerr << (StatsAfter - StatsBefore) << std::endl;
+        std::cout << (StatsAfter - StatsBefore) << std::endl;
     }
 };
 
@@ -78,28 +80,80 @@ double getSum(const char * filename) {
 }
 
 int main() {
-  #define RUN(SIZE) \
+  #define RUN(SIZE, BLOCKS_IN_PAGE) \
   {\
-    typedef stxxl::VECTOR_GENERATOR<float, 4, 8, BLOCK_SIZE_##SIZE>::result vector_type;\
-    cout << #SIZE << endl;\
+    typedef stxxl::VECTOR_GENERATOR<float, BLOCKS_IN_PAGE, 1, BLOCK_SIZE_##SIZE>::result vector_type;\
+    cout << #SIZE << " Blocks in page: " << #BLOCKS_IN_PAGE << endl;\
     Profiler profiler;\
     cout << getSum<vector_type>("bigFile.txt") << endl;\
   }
-  RUN(4KB)
-  RUN(8KB)
-  RUN(16KB)
-  RUN(32KB)
-  RUN(64KB)
-  RUN(128KB)
-  RUN(256KB)
-  RUN(512KB)
-  RUN(1MB)
-  RUN(2MB)
-  RUN(4MB)
-  RUN(8MB)
-  RUN(16MB)
-  RUN(32MB)
-  RUN(64MB)
-  RUN(128MB)
+  RUN(4KB, 1)
+  RUN(8KB, 1)
+  RUN(16KB, 1)
+  RUN(32KB, 1)
+  RUN(64KB, 1)
+  RUN(128KB, 1)
+  RUN(256KB, 1)
+  RUN(512KB, 1)
+  RUN(1MB, 1)
+  RUN(2MB, 1)
+  RUN(4MB, 1)
+  RUN(8MB, 1)
+  RUN(16MB, 1)
+  RUN(32MB, 1)
+  RUN(34MB, 1)
+  RUN(36MB, 1)
+
+  RUN(4KB, 2)
+  RUN(8KB, 2)
+  RUN(16KB, 2)
+  RUN(32KB, 2)
+  RUN(64KB, 2)
+  RUN(128KB, 2)
+  RUN(256KB, 2)
+  RUN(512KB, 2)
+  RUN(1MB, 2)
+  RUN(2MB, 2)
+  RUN(4MB, 2)
+  RUN(8MB, 2)
+  RUN(16MB, 2)
+  RUN(32MB, 2)
+  RUN(34MB, 2)
+  RUN(36MB, 2)
+
+  RUN(4KB, 3)
+  RUN(8KB, 3)
+  RUN(16KB, 3)
+  RUN(32KB, 3)
+  RUN(64KB, 3)
+  RUN(128KB, 3)
+  RUN(256KB, 3)
+  RUN(512KB, 3)
+  RUN(1MB, 3)
+  RUN(2MB, 3)
+  RUN(4MB, 3)
+  RUN(8MB, 3)
+  RUN(16MB, 3)
+  RUN(32MB, 3)
+  RUN(34MB, 3)
+  RUN(36MB, 3)
+
+  RUN(4KB, 4)
+  RUN(8KB, 4)
+  RUN(16KB, 4)
+  RUN(32KB, 4)
+  RUN(64KB, 4)
+  RUN(128KB, 4)
+  RUN(256KB, 4)
+  RUN(512KB, 4)
+  RUN(1MB, 4)
+  RUN(2MB, 4)
+  RUN(4MB, 4)
+  RUN(8MB, 4)
+  RUN(16MB, 4)
+  RUN(32MB, 4)
+  RUN(34MB, 4)
+  RUN(36MB, 4)
+
 }
 
