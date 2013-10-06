@@ -1,0 +1,1154 @@
+4KB Blocks in page: 1
+[STXXL-MSG] STXXL v1.3.1 (release)
+[STXXL-MSG] 1 disks are allocated, total space: 1000 MiB
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 1953125 (1.863 Mi) 
+ average block size (read)                  : 4096 (4.000 KiB) 
+ number of bytes read from disks            : 8000000000 (7.451 GiB) 
+ time spent in serving all read requests    : 8.57371 s @ 889.859 MiB/s
+ time spent in reading (parallel read time) : 8.57371 s @ 889.859 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 8.57362 s @ 889.868 MiB/s
+ I/O wait time                              : 2.74999 s
+ I/O wait4read time                         : 2.74999 s
+ Time since the last reset                  : 104.675 s
+
+8KB Blocks in page: 1
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 976563 (953.675 Ki) 
+ average block size (read)                  : 8192 (8.000 KiB) 
+ number of bytes read from disks            : 8000004096 (7.451 GiB) 
+ time spent in serving all read requests    : 7.35651 s @ 1037.09 MiB/s
+ time spent in reading (parallel read time) : 7.35651 s @ 1037.09 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 7.35656 s @ 1037.09 MiB/s
+ I/O wait time                              : 1.76483 s
+ I/O wait4read time                         : 1.76483 s
+ Time since the last reset                  : 76.6345 s
+
+16KB Blocks in page: 1
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 488282 (476.838 Ki) 
+ average block size (read)                  : 16384 (16.000 KiB) 
+ number of bytes read from disks            : 8000012288 (7.451 GiB) 
+ time spent in serving all read requests    : 7.88086 s @ 968.094 MiB/s
+ time spent in reading (parallel read time) : 7.88086 s @ 968.094 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 7.88088 s @ 968.091 MiB/s
+ I/O wait time                              : 1.97615 s
+ I/O wait4read time                         : 1.97615 s
+ Time since the last reset                  : 63.7462 s
+
+32KB Blocks in page: 1
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 244141 (238.419 Ki) 
+ average block size (read)                  : 32768 (32.000 KiB) 
+ number of bytes read from disks            : 8000012288 (7.451 GiB) 
+ time spent in serving all read requests    : 8.81531 s @ 865.472 MiB/s
+ time spent in reading (parallel read time) : 8.81531 s @ 865.472 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 8.81528 s @ 865.475 MiB/s
+ I/O wait time                              : 2.93865 s
+ I/O wait4read time                         : 2.93865 s
+ Time since the last reset                  : 54.7157 s
+
+64KB Blocks in page: 1
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 122071 (119.210 Ki) 
+ average block size (read)                  : 65536 (64.000 KiB) 
+ number of bytes read from disks            : 8000045056 (7.451 GiB) 
+ time spent in serving all read requests    : 11.1891 s @ 681.862 MiB/s
+ time spent in reading (parallel read time) : 11.1891 s @ 681.862 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 11.1891 s @ 681.861 MiB/s
+ I/O wait time                              : 5.30391 s
+ I/O wait4read time                         : 5.30391 s
+ Time since the last reset                  : 52.8919 s
+
+128KB Blocks in page: 1
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 61036 (59.605 Ki) 
+ average block size (read)                  : 131072 (128.000 KiB) 
+ number of bytes read from disks            : 8000110592 (7.451 GiB) 
+ time spent in serving all read requests    : 11.8573 s @ 643.443 MiB/s
+ time spent in reading (parallel read time) : 11.8573 s @ 643.443 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 11.8573 s @ 643.444 MiB/s
+ I/O wait time                              : 6.04325 s
+ I/O wait4read time                         : 6.04325 s
+ Time since the last reset                  : 51.5575 s
+
+256KB Blocks in page: 1
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 30518 (29.803 Ki) 
+ average block size (read)                  : 262144 (256.000 KiB) 
+ number of bytes read from disks            : 8000110592 (7.451 GiB) 
+ time spent in serving all read requests    : 28.8429 s @ 264.519 MiB/s
+ time spent in reading (parallel read time) : 28.8429 s @ 264.519 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 28.843 s @ 264.519 MiB/s
+ I/O wait time                              : 24.6436 s
+ I/O wait4read time                         : 24.6436 s
+ Time since the last reset                  : 67.813 s
+
+512KB Blocks in page: 1
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 15259 (14.901 Ki) 
+ average block size (read)                  : 524288 (512.000 KiB) 
+ number of bytes read from disks            : 8000110592 (7.451 GiB) 
+ time spent in serving all read requests    : 35.3924 s @ 215.569 MiB/s
+ time spent in reading (parallel read time) : 35.3924 s @ 215.569 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 35.3924 s @ 215.569 MiB/s
+ I/O wait time                              : 33.0538 s
+ I/O wait4read time                         : 33.0538 s
+ Time since the last reset                  : 73.951 s
+
+1MB Blocks in page: 1
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 7630 (7.451 Ki) 
+ average block size (read)                  : 1048576 (1.000 MiB) 
+ number of bytes read from disks            : 8000634880 (7.451 GiB) 
+ time spent in serving all read requests    : 39.327 s @ 194.014 MiB/s
+ time spent in reading (parallel read time) : 39.327 s @ 194.014 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 39.327 s @ 194.014 MiB/s
+ I/O wait time                              : 37.8452 s
+ I/O wait4read time                         : 37.8452 s
+ Time since the last reset                  : 81.9923 s
+
+2MB Blocks in page: 1
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 3815 (3.726 Ki) 
+ average block size (read)                  : 2097152 (2.000 MiB) 
+ number of bytes read from disks            : 8000634880 (7.451 GiB) 
+ time spent in serving all read requests    : 39.5159 s @ 193.087 MiB/s
+ time spent in reading (parallel read time) : 39.5159 s @ 193.087 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 39.5159 s @ 193.087 MiB/s
+ I/O wait time                              : 38.6333 s
+ I/O wait4read time                         : 38.6333 s
+ Time since the last reset                  : 80.904 s
+
+4MB Blocks in page: 1
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 1908 (1.863 Ki) 
+ average block size (read)                  : 4194304 (4.000 MiB) 
+ number of bytes read from disks            : 8002732032 (7.453 GiB) 
+ time spent in serving all read requests    : 37.9726 s @ 200.987 MiB/s
+ time spent in reading (parallel read time) : 37.9726 s @ 200.987 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 37.9726 s @ 200.987 MiB/s
+ I/O wait time                              : 37.5782 s
+ I/O wait4read time                         : 37.5782 s
+ Time since the last reset                  : 74.054 s
+
+8MB Blocks in page: 1
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 954 
+ average block size (read)                  : 8388608 (8.000 MiB) 
+ number of bytes read from disks            : 8002732032 (7.453 GiB) 
+ time spent in serving all read requests    : 37.8216 s @ 201.789 MiB/s
+ time spent in reading (parallel read time) : 37.8216 s @ 201.789 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 37.8216 s @ 201.789 MiB/s
+ I/O wait time                              : 37.6253 s
+ I/O wait4read time                         : 37.6253 s
+ Time since the last reset                  : 74.8234 s
+
+16MB Blocks in page: 1
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 477 
+ average block size (read)                  : 16777216 (16.000 MiB) 
+ number of bytes read from disks            : 8002732032 (7.453 GiB) 
+ time spent in serving all read requests    : 38.8355 s @ 196.521 MiB/s
+ time spent in reading (parallel read time) : 38.8355 s @ 196.521 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 38.8355 s @ 196.521 MiB/s
+ I/O wait time                              : 38.7343 s
+ I/O wait4read time                         : 38.7343 s
+ Time since the last reset                  : 76.1317 s
+
+32MB Blocks in page: 1
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 239 
+ average block size (read)                  : 33554432 (32.000 MiB) 
+ number of bytes read from disks            : 8019509248 (7.469 GiB) 
+ time spent in serving all read requests    : 39.1712 s @ 195.245 MiB/s
+ time spent in reading (parallel read time) : 39.1712 s @ 195.245 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 39.1712 s @ 195.245 MiB/s
+ I/O wait time                              : 39.1206 s
+ I/O wait4read time                         : 39.1206 s
+ Time since the last reset                  : 74.9765 s
+
+34MB Blocks in page: 1
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 225 
+ average block size (read)                  : 35651584 (34.000 MiB) 
+ number of bytes read from disks            : 8021606400 (7.471 GiB) 
+ time spent in serving all read requests    : 40.0065 s @ 191.219 MiB/s
+ time spent in reading (parallel read time) : 40.0065 s @ 191.219 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 40.0065 s @ 191.219 MiB/s
+ I/O wait time                              : 39.9598 s
+ I/O wait4read time                         : 39.9598 s
+ Time since the last reset                  : 114.97 s
+
+36MB Blocks in page: 1
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 212 
+ average block size (read)                  : 37748736 (36.000 MiB) 
+ number of bytes read from disks            : 8002732032 (7.453 GiB) 
+ time spent in serving all read requests    : 39.3906 s @ 193.752 MiB/s
+ time spent in reading (parallel read time) : 39.3906 s @ 193.752 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 39.3906 s @ 193.752 MiB/s
+ I/O wait time                              : 39.3479 s
+ I/O wait4read time                         : 39.3479 s
+ Time since the last reset                  : 115.006 s
+
+4KB Blocks in page: 2
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 1953125 (1.863 Mi) 
+ average block size (read)                  : 4096 (4.000 KiB) 
+ number of bytes read from disks            : 8000000000 (7.451 GiB) 
+ time spent in serving all read requests    : 8.82296 s @ 864.721 MiB/s
+ time spent in reading (parallel read time) : 8.82296 s @ 864.721 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 8.82298 s @ 864.718 MiB/s
+ I/O wait time                              : 5.75381 s
+ I/O wait4read time                         : 5.75381 s
+ Time since the last reset                  : 110.942 s
+
+8KB Blocks in page: 2
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 976563 (953.675 Ki) 
+ average block size (read)                  : 8192 (8.000 KiB) 
+ number of bytes read from disks            : 8000004096 (7.451 GiB) 
+ time spent in serving all read requests    : 7.04856 s @ 1082.4 MiB/s
+ time spent in reading (parallel read time) : 7.04856 s @ 1082.4 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 7.04854 s @ 1082.41 MiB/s
+ I/O wait time                              : 3.09661 s
+ I/O wait4read time                         : 3.09661 s
+ Time since the last reset                  : 79.172 s
+
+16KB Blocks in page: 2
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 488282 (476.838 Ki) 
+ average block size (read)                  : 16384 (16.000 KiB) 
+ number of bytes read from disks            : 8000012288 (7.451 GiB) 
+ time spent in serving all read requests    : 6.52034 s @ 1170.09 MiB/s
+ time spent in reading (parallel read time) : 6.52034 s @ 1170.09 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 6.52024 s @ 1170.11 MiB/s
+ I/O wait time                              : 2.11268 s
+ I/O wait4read time                         : 2.11268 s
+ Time since the last reset                  : 64.0335 s
+
+32KB Blocks in page: 2
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 244141 (238.419 Ki) 
+ average block size (read)                  : 32768 (32.000 KiB) 
+ number of bytes read from disks            : 8000012288 (7.451 GiB) 
+ time spent in serving all read requests    : 9.56067 s @ 797.999 MiB/s
+ time spent in reading (parallel read time) : 9.56067 s @ 797.999 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 9.56065 s @ 798.001 MiB/s
+ I/O wait time                              : 2.45266 s
+ I/O wait4read time                         : 2.45266 s
+ Time since the last reset                  : 63.4529 s
+
+64KB Blocks in page: 2
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 122071 (119.210 Ki) 
+ average block size (read)                  : 65536 (64.000 KiB) 
+ number of bytes read from disks            : 8000045056 (7.451 GiB) 
+ time spent in serving all read requests    : 10.3517 s @ 737.023 MiB/s
+ time spent in reading (parallel read time) : 10.3517 s @ 737.023 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 10.3517 s @ 737.021 MiB/s
+ I/O wait time                              : 2.88992 s
+ I/O wait4read time                         : 2.88992 s
+ Time since the last reset                  : 57.8309 s
+
+128KB Blocks in page: 2
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 61036 (59.605 Ki) 
+ average block size (read)                  : 131072 (128.000 KiB) 
+ number of bytes read from disks            : 8000110592 (7.451 GiB) 
+ time spent in serving all read requests    : 29.7516 s @ 256.44 MiB/s
+ time spent in reading (parallel read time) : 29.7516 s @ 256.44 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 29.7516 s @ 256.44 MiB/s
+ I/O wait time                              : 24.3782 s
+ I/O wait4read time                         : 24.3782 s
+ Time since the last reset                  : 74.8772 s
+
+256KB Blocks in page: 2
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 30518 (29.803 Ki) 
+ average block size (read)                  : 262144 (256.000 KiB) 
+ number of bytes read from disks            : 8000110592 (7.451 GiB) 
+ time spent in serving all read requests    : 32.2587 s @ 236.51 MiB/s
+ time spent in reading (parallel read time) : 32.2587 s @ 236.51 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 32.2587 s @ 236.51 MiB/s
+ I/O wait time                              : 30.078 s
+ I/O wait4read time                         : 30.078 s
+ Time since the last reset                  : 71.5826 s
+
+512KB Blocks in page: 2
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 15259 (14.901 Ki) 
+ average block size (read)                  : 524288 (512.000 KiB) 
+ number of bytes read from disks            : 8000110592 (7.451 GiB) 
+ time spent in serving all read requests    : 38.0165 s @ 200.689 MiB/s
+ time spent in reading (parallel read time) : 38.0165 s @ 200.689 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 38.0165 s @ 200.689 MiB/s
+ I/O wait time                              : 36.7378 s
+ I/O wait4read time                         : 36.7378 s
+ Time since the last reset                  : 77.5172 s
+
+1MB Blocks in page: 2
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 7630 (7.451 Ki) 
+ average block size (read)                  : 1048576 (1.000 MiB) 
+ number of bytes read from disks            : 8000634880 (7.451 GiB) 
+ time spent in serving all read requests    : 37.9779 s @ 200.907 MiB/s
+ time spent in reading (parallel read time) : 37.9779 s @ 200.907 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 37.9779 s @ 200.907 MiB/s
+ I/O wait time                              : 37.2714 s
+ I/O wait4read time                         : 37.2714 s
+ Time since the last reset                  : 76.2826 s
+
+2MB Blocks in page: 2
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 3815 (3.726 Ki) 
+ average block size (read)                  : 2097152 (2.000 MiB) 
+ number of bytes read from disks            : 8000634880 (7.451 GiB) 
+ time spent in serving all read requests    : 37.5942 s @ 202.957 MiB/s
+ time spent in reading (parallel read time) : 37.5942 s @ 202.957 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 37.5942 s @ 202.957 MiB/s
+ I/O wait time                              : 37.2195 s
+ I/O wait4read time                         : 37.2195 s
+ Time since the last reset                  : 74.9519 s
+
+4MB Blocks in page: 2
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 1908 (1.863 Ki) 
+ average block size (read)                  : 4194304 (4.000 MiB) 
+ number of bytes read from disks            : 8002732032 (7.453 GiB) 
+ time spent in serving all read requests    : 37.8074 s @ 201.865 MiB/s
+ time spent in reading (parallel read time) : 37.8074 s @ 201.865 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 37.8074 s @ 201.865 MiB/s
+ I/O wait time                              : 37.6294 s
+ I/O wait4read time                         : 37.6294 s
+ Time since the last reset                  : 77.5412 s
+
+8MB Blocks in page: 2
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 954 
+ average block size (read)                  : 8388608 (8.000 MiB) 
+ number of bytes read from disks            : 8002732032 (7.453 GiB) 
+ time spent in serving all read requests    : 39.2716 s @ 194.339 MiB/s
+ time spent in reading (parallel read time) : 39.2716 s @ 194.339 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 39.2716 s @ 194.339 MiB/s
+ I/O wait time                              : 39.1951 s
+ I/O wait4read time                         : 39.1951 s
+ Time since the last reset                  : 78.279 s
+
+16MB Blocks in page: 2
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 477 
+ average block size (read)                  : 16777216 (16.000 MiB) 
+ number of bytes read from disks            : 8002732032 (7.453 GiB) 
+ time spent in serving all read requests    : 39.4575 s @ 193.424 MiB/s
+ time spent in reading (parallel read time) : 39.4575 s @ 193.424 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 39.4575 s @ 193.424 MiB/s
+ I/O wait time                              : 39.4263 s
+ I/O wait4read time                         : 39.4263 s
+ Time since the last reset                  : 77.2391 s
+
+32MB Blocks in page: 2
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 239 
+ average block size (read)                  : 33554432 (32.000 MiB) 
+ number of bytes read from disks            : 8019509248 (7.469 GiB) 
+ time spent in serving all read requests    : 39.8647 s @ 191.849 MiB/s
+ time spent in reading (parallel read time) : 39.8647 s @ 191.849 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 39.8647 s @ 191.849 MiB/s
+ I/O wait time                              : 39.8474 s
+ I/O wait4read time                         : 39.8474 s
+ Time since the last reset                  : 77.2557 s
+
+34MB Blocks in page: 2
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 225 
+ average block size (read)                  : 35651584 (34.000 MiB) 
+ number of bytes read from disks            : 8021606400 (7.471 GiB) 
+ time spent in serving all read requests    : 39.722 s @ 192.588 MiB/s
+ time spent in reading (parallel read time) : 39.722 s @ 192.588 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 39.722 s @ 192.588 MiB/s
+ I/O wait time                              : 39.7046 s
+ I/O wait4read time                         : 39.7046 s
+ Time since the last reset                  : 108.445 s
+
+36MB Blocks in page: 2
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 212 
+ average block size (read)                  : 37748736 (36.000 MiB) 
+ number of bytes read from disks            : 8002732032 (7.453 GiB) 
+ time spent in serving all read requests    : 39.3285 s @ 194.058 MiB/s
+ time spent in reading (parallel read time) : 39.3285 s @ 194.058 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 39.3285 s @ 194.058 MiB/s
+ I/O wait time                              : 39.3119 s
+ I/O wait4read time                         : 39.3119 s
+ Time since the last reset                  : 107.951 s
+
+4KB Blocks in page: 3
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 1953125 (1.863 Mi) 
+ average block size (read)                  : 4096 (4.000 KiB) 
+ number of bytes read from disks            : 8000000000 (7.451 GiB) 
+ time spent in serving all read requests    : 9.75137 s @ 782.392 MiB/s
+ time spent in reading (parallel read time) : 9.75137 s @ 782.392 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 9.75143 s @ 782.388 MiB/s
+ I/O wait time                              : 5.34589 s
+ I/O wait4read time                         : 5.34589 s
+ Time since the last reset                  : 132.944 s
+
+8KB Blocks in page: 3
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 976563 (953.675 Ki) 
+ average block size (read)                  : 8192 (8.000 KiB) 
+ number of bytes read from disks            : 8000004096 (7.451 GiB) 
+ time spent in serving all read requests    : 7.05412 s @ 1081.55 MiB/s
+ time spent in reading (parallel read time) : 7.05412 s @ 1081.55 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 7.05407 s @ 1081.56 MiB/s
+ I/O wait time                              : 2.52504 s
+ I/O wait4read time                         : 2.52504 s
+ Time since the last reset                  : 100.485 s
+
+16KB Blocks in page: 3
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 488282 (476.838 Ki) 
+ average block size (read)                  : 16384 (16.000 KiB) 
+ number of bytes read from disks            : 8000012288 (7.451 GiB) 
+ time spent in serving all read requests    : 6.15848 s @ 1238.85 MiB/s
+ time spent in reading (parallel read time) : 6.15848 s @ 1238.85 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 6.15861 s @ 1238.82 MiB/s
+ I/O wait time                              : 1.45617 s
+ I/O wait4read time                         : 1.45617 s
+ Time since the last reset                  : 84.5381 s
+
+32KB Blocks in page: 3
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 244141 (238.419 Ki) 
+ average block size (read)                  : 32768 (32.000 KiB) 
+ number of bytes read from disks            : 8000012288 (7.451 GiB) 
+ time spent in serving all read requests    : 6.37373 s @ 1197.01 MiB/s
+ time spent in reading (parallel read time) : 6.37373 s @ 1197.01 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 6.37373 s @ 1197.01 MiB/s
+ I/O wait time                              : 1.35987 s
+ I/O wait4read time                         : 1.35987 s
+ Time since the last reset                  : 76.8377 s
+
+64KB Blocks in page: 3
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 122071 (119.210 Ki) 
+ average block size (read)                  : 65536 (64.000 KiB) 
+ number of bytes read from disks            : 8000045056 (7.451 GiB) 
+ time spent in serving all read requests    : 18.044 s @ 422.825 MiB/s
+ time spent in reading (parallel read time) : 18.044 s @ 422.825 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 18.044 s @ 422.824 MiB/s
+ I/O wait time                              : 13.2788 s
+ I/O wait4read time                         : 13.2788 s
+ Time since the last reset                  : 83.3806 s
+
+128KB Blocks in page: 3
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 61036 (59.605 Ki) 
+ average block size (read)                  : 131072 (128.000 KiB) 
+ number of bytes read from disks            : 8000110592 (7.451 GiB) 
+ time spent in serving all read requests    : 29.1878 s @ 261.393 MiB/s
+ time spent in reading (parallel read time) : 29.1878 s @ 261.393 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 29.1878 s @ 261.393 MiB/s
+ I/O wait time                              : 25.7752 s
+ I/O wait4read time                         : 25.7752 s
+ Time since the last reset                  : 91.3077 s
+
+256KB Blocks in page: 3
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 30518 (29.803 Ki) 
+ average block size (read)                  : 262144 (256.000 KiB) 
+ number of bytes read from disks            : 8000110592 (7.451 GiB) 
+ time spent in serving all read requests    : 35.2205 s @ 216.621 MiB/s
+ time spent in reading (parallel read time) : 35.2205 s @ 216.621 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 35.2205 s @ 216.621 MiB/s
+ I/O wait time                              : 33.3498 s
+ I/O wait4read time                         : 33.3498 s
+ Time since the last reset                  : 95.3802 s
+
+512KB Blocks in page: 3
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 15259 (14.901 Ki) 
+ average block size (read)                  : 524288 (512.000 KiB) 
+ number of bytes read from disks            : 8000110592 (7.451 GiB) 
+ time spent in serving all read requests    : 36.1145 s @ 211.258 MiB/s
+ time spent in reading (parallel read time) : 36.1145 s @ 211.258 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 36.1145 s @ 211.258 MiB/s
+ I/O wait time                              : 35.2207 s
+ I/O wait4read time                         : 35.2207 s
+ Time since the last reset                  : 95.2271 s
+
+1MB Blocks in page: 3
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 7630 (7.451 Ki) 
+ average block size (read)                  : 1048576 (1.000 MiB) 
+ number of bytes read from disks            : 8000634880 (7.451 GiB) 
+ time spent in serving all read requests    : 37.8514 s @ 201.578 MiB/s
+ time spent in reading (parallel read time) : 37.8514 s @ 201.578 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 37.8514 s @ 201.578 MiB/s
+ I/O wait time                              : 37.3826 s
+ I/O wait4read time                         : 37.3826 s
+ Time since the last reset                  : 96.6288 s
+
+2MB Blocks in page: 3
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 3815 (3.726 Ki) 
+ average block size (read)                  : 2097152 (2.000 MiB) 
+ number of bytes read from disks            : 8000634880 (7.451 GiB) 
+ time spent in serving all read requests    : 37.5595 s @ 203.144 MiB/s
+ time spent in reading (parallel read time) : 37.5595 s @ 203.144 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 37.5595 s @ 203.144 MiB/s
+ I/O wait time                              : 37.3471 s
+ I/O wait4read time                         : 37.3471 s
+ Time since the last reset                  : 96.1483 s
+
+4MB Blocks in page: 3
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 1908 (1.863 Ki) 
+ average block size (read)                  : 4194304 (4.000 MiB) 
+ number of bytes read from disks            : 8002732032 (7.453 GiB) 
+ time spent in serving all read requests    : 38.3174 s @ 199.178 MiB/s
+ time spent in reading (parallel read time) : 38.3174 s @ 199.178 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 38.3174 s @ 199.178 MiB/s
+ I/O wait time                              : 38.2325 s
+ I/O wait4read time                         : 38.2325 s
+ Time since the last reset                  : 97.6484 s
+
+8MB Blocks in page: 3
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 954 
+ average block size (read)                  : 8388608 (8.000 MiB) 
+ number of bytes read from disks            : 8002732032 (7.453 GiB) 
+ time spent in serving all read requests    : 39.0664 s @ 195.36 MiB/s
+ time spent in reading (parallel read time) : 39.0664 s @ 195.36 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 39.0664 s @ 195.36 MiB/s
+ I/O wait time                              : 39.0358 s
+ I/O wait4read time                         : 39.0358 s
+ Time since the last reset                  : 97.4614 s
+
+16MB Blocks in page: 3
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 477 
+ average block size (read)                  : 16777216 (16.000 MiB) 
+ number of bytes read from disks            : 8002732032 (7.453 GiB) 
+ time spent in serving all read requests    : 39.254 s @ 194.426 MiB/s
+ time spent in reading (parallel read time) : 39.254 s @ 194.426 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 39.254 s @ 194.426 MiB/s
+ I/O wait time                              : 39.2369 s
+ I/O wait4read time                         : 39.2369 s
+ Time since the last reset                  : 96.6421 s
+
+32MB Blocks in page: 3
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 239 
+ average block size (read)                  : 33554432 (32.000 MiB) 
+ number of bytes read from disks            : 8019509248 (7.469 GiB) 
+ time spent in serving all read requests    : 39.5936 s @ 193.163 MiB/s
+ time spent in reading (parallel read time) : 39.5936 s @ 193.163 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 39.5936 s @ 193.163 MiB/s
+ I/O wait time                              : 39.5866 s
+ I/O wait4read time                         : 39.5866 s
+ Time since the last reset                  : 96.7312 s
+
+34MB Blocks in page: 3
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 225 
+ average block size (read)                  : 35651584 (34.000 MiB) 
+ number of bytes read from disks            : 8021606400 (7.471 GiB) 
+ time spent in serving all read requests    : 39.9585 s @ 191.449 MiB/s
+ time spent in reading (parallel read time) : 39.9585 s @ 191.449 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 39.9585 s @ 191.449 MiB/s
+ I/O wait time                              : 39.9529 s
+ I/O wait4read time                         : 39.9529 s
+ Time since the last reset                  : 108.348 s
+
+36MB Blocks in page: 3
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 212 
+ average block size (read)                  : 37748736 (36.000 MiB) 
+ number of bytes read from disks            : 8002732032 (7.453 GiB) 
+ time spent in serving all read requests    : 39.535 s @ 193.044 MiB/s
+ time spent in reading (parallel read time) : 39.535 s @ 193.044 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 39.535 s @ 193.044 MiB/s
+ I/O wait time                              : 39.528 s
+ I/O wait4read time                         : 39.528 s
+ Time since the last reset                  : 109.007 s
+
+4KB Blocks in page: 4
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 1953125 (1.863 Mi) 
+ average block size (read)                  : 4096 (4.000 KiB) 
+ number of bytes read from disks            : 8000000000 (7.451 GiB) 
+ time spent in serving all read requests    : 8.56166 s @ 891.111 MiB/s
+ time spent in reading (parallel read time) : 8.56166 s @ 891.111 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 8.56163 s @ 891.115 MiB/s
+ I/O wait time                              : 4.12356 s
+ I/O wait4read time                         : 4.12356 s
+ Time since the last reset                  : 108.543 s
+
+8KB Blocks in page: 4
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 976563 (953.675 Ki) 
+ average block size (read)                  : 8192 (8.000 KiB) 
+ number of bytes read from disks            : 8000004096 (7.451 GiB) 
+ time spent in serving all read requests    : 11.4119 s @ 668.546 MiB/s
+ time spent in reading (parallel read time) : 11.4119 s @ 668.546 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 11.412 s @ 668.543 MiB/s
+ I/O wait time                              : 5.80192 s
+ I/O wait4read time                         : 5.80192 s
+ Time since the last reset                  : 87.6131 s
+
+16KB Blocks in page: 4
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 488282 (476.838 Ki) 
+ average block size (read)                  : 16384 (16.000 KiB) 
+ number of bytes read from disks            : 8000012288 (7.451 GiB) 
+ time spent in serving all read requests    : 6.96268 s @ 1095.76 MiB/s
+ time spent in reading (parallel read time) : 6.96268 s @ 1095.76 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 6.96268 s @ 1095.76 MiB/s
+ I/O wait time                              : 1.89381 s
+ I/O wait4read time                         : 1.89381 s
+ Time since the last reset                  : 64.6132 s
+
+32KB Blocks in page: 4
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 244141 (238.419 Ki) 
+ average block size (read)                  : 32768 (32.000 KiB) 
+ number of bytes read from disks            : 8000012288 (7.451 GiB) 
+ time spent in serving all read requests    : 9.23854 s @ 825.824 MiB/s
+ time spent in reading (parallel read time) : 9.23854 s @ 825.824 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 9.2385 s @ 825.827 MiB/s
+ I/O wait time                              : 2.60662 s
+ I/O wait4read time                         : 2.60662 s
+ Time since the last reset                  : 59.4627 s
+
+64KB Blocks in page: 4
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 122071 (119.210 Ki) 
+ average block size (read)                  : 65536 (64.000 KiB) 
+ number of bytes read from disks            : 8000045056 (7.451 GiB) 
+ time spent in serving all read requests    : 27.959 s @ 272.88 MiB/s
+ time spent in reading (parallel read time) : 27.959 s @ 272.88 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 27.959 s @ 272.88 MiB/s
+ I/O wait time                              : 23.1344 s
+ I/O wait4read time                         : 23.1344 s
+ Time since the last reset                  : 72.4483 s
+
+128KB Blocks in page: 4
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 61036 (59.605 Ki) 
+ average block size (read)                  : 131072 (128.000 KiB) 
+ number of bytes read from disks            : 8000110592 (7.451 GiB) 
+ time spent in serving all read requests    : 31.8598 s @ 239.471 MiB/s
+ time spent in reading (parallel read time) : 31.8598 s @ 239.471 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 31.8598 s @ 239.471 MiB/s
+ I/O wait time                              : 29.5068 s
+ I/O wait4read time                         : 29.5068 s
+ Time since the last reset                  : 73.0675 s
+
+256KB Blocks in page: 4
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 30518 (29.803 Ki) 
+ average block size (read)                  : 262144 (256.000 KiB) 
+ number of bytes read from disks            : 8000110592 (7.451 GiB) 
+ time spent in serving all read requests    : 37.381 s @ 204.101 MiB/s
+ time spent in reading (parallel read time) : 37.381 s @ 204.101 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 37.381 s @ 204.101 MiB/s
+ I/O wait time                              : 35.9835 s
+ I/O wait4read time                         : 35.9835 s
+ Time since the last reset                  : 77.5239 s
+
+512KB Blocks in page: 4
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 15259 (14.901 Ki) 
+ average block size (read)                  : 524288 (512.000 KiB) 
+ number of bytes read from disks            : 8000110592 (7.451 GiB) 
+ time spent in serving all read requests    : 37.4483 s @ 203.734 MiB/s
+ time spent in reading (parallel read time) : 37.4483 s @ 203.734 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 37.4483 s @ 203.734 MiB/s
+ I/O wait time                              : 36.8614 s
+ I/O wait4read time                         : 36.8614 s
+ Time since the last reset                  : 75.5688 s
+
+1MB Blocks in page: 4
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 7630 (7.451 Ki) 
+ average block size (read)                  : 1048576 (1.000 MiB) 
+ number of bytes read from disks            : 8000634880 (7.451 GiB) 
+ time spent in serving all read requests    : 38.1419 s @ 200.042 MiB/s
+ time spent in reading (parallel read time) : 38.1419 s @ 200.042 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 38.1419 s @ 200.042 MiB/s
+ I/O wait time                              : 37.8465 s
+ I/O wait4read time                         : 37.8465 s
+ Time since the last reset                  : 76.7444 s
+
+2MB Blocks in page: 4
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 3815 (3.726 Ki) 
+ average block size (read)                  : 2097152 (2.000 MiB) 
+ number of bytes read from disks            : 8000634880 (7.451 GiB) 
+ time spent in serving all read requests    : 38.6745 s @ 197.288 MiB/s
+ time spent in reading (parallel read time) : 38.6745 s @ 197.288 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 38.6745 s @ 197.288 MiB/s
+ I/O wait time                              : 38.5489 s
+ I/O wait4read time                         : 38.5489 s
+ Time since the last reset                  : 78.1885 s
+
+4MB Blocks in page: 4
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 1908 (1.863 Ki) 
+ average block size (read)                  : 4194304 (4.000 MiB) 
+ number of bytes read from disks            : 8002732032 (7.453 GiB) 
+ time spent in serving all read requests    : 39.2097 s @ 194.646 MiB/s
+ time spent in reading (parallel read time) : 39.2097 s @ 194.646 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 39.2097 s @ 194.646 MiB/s
+ I/O wait time                              : 39.1496 s
+ I/O wait4read time                         : 39.1496 s
+ Time since the last reset                  : 80.133 s
+
+8MB Blocks in page: 4
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 954 
+ average block size (read)                  : 8388608 (8.000 MiB) 
+ number of bytes read from disks            : 8002732032 (7.453 GiB) 
+ time spent in serving all read requests    : 40.2299 s @ 189.71 MiB/s
+ time spent in reading (parallel read time) : 40.2299 s @ 189.71 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 40.2299 s @ 189.71 MiB/s
+ I/O wait time                              : 40.2059 s
+ I/O wait4read time                         : 40.2059 s
+ Time since the last reset                  : 79.6741 s
+
+16MB Blocks in page: 4
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 477 
+ average block size (read)                  : 16777216 (16.000 MiB) 
+ number of bytes read from disks            : 8002732032 (7.453 GiB) 
+ time spent in serving all read requests    : 40.4026 s @ 188.899 MiB/s
+ time spent in reading (parallel read time) : 40.4026 s @ 188.899 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 40.4026 s @ 188.899 MiB/s
+ I/O wait time                              : 40.3971 s
+ I/O wait4read time                         : 40.3971 s
+ Time since the last reset                  : 77.9556 s
+
+32MB Blocks in page: 4
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 239 
+ average block size (read)                  : 33554432 (32.000 MiB) 
+ number of bytes read from disks            : 8019509248 (7.469 GiB) 
+ time spent in serving all read requests    : 39.2103 s @ 195.051 MiB/s
+ time spent in reading (parallel read time) : 39.2103 s @ 195.051 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 39.2103 s @ 195.051 MiB/s
+ I/O wait time                              : 39.2077 s
+ I/O wait4read time                         : 39.2077 s
+ Time since the last reset                  : 76.2212 s
+
+34MB Blocks in page: 4
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 225 
+ average block size (read)                  : 35651584 (34.000 MiB) 
+ number of bytes read from disks            : 8021606400 (7.471 GiB) 
+ time spent in serving all read requests    : 39.3871 s @ 194.226 MiB/s
+ time spent in reading (parallel read time) : 39.3871 s @ 194.226 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 39.3871 s @ 194.226 MiB/s
+ I/O wait time                              : 39.3841 s
+ I/O wait4read time                         : 39.3841 s
+ Time since the last reset                  : 107.935 s
+
+36MB Blocks in page: 4
+2e+09
+STXXL I/O statistics
+ total number of reads                      : 212 
+ average block size (read)                  : 37748736 (36.000 MiB) 
+ number of bytes read from disks            : 8002732032 (7.453 GiB) 
+ time spent in serving all read requests    : 39.5795 s @ 192.827 MiB/s
+ time spent in reading (parallel read time) : 39.5795 s @ 192.827 MiB/s
+ total number of writes                     : 0 
+ average block size (write)                 : 0 B 
+ number of bytes written to disks           : 0 B 
+ time spent in serving all write requests   : 0 s @ -nan MiB/s
+ time spent in writing (parallel write time): 0 s @ -nan MiB/s
+ time spent in I/O (parallel I/O time)      : 39.5795 s @ 192.827 MiB/s
+ I/O wait time                              : 39.577 s
+ I/O wait4read time                         : 39.577 s
+ Time since the last reset                  : 108.302 s
+

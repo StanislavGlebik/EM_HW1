@@ -2,4 +2,4 @@
 
 make
 
-./my.bin bigFile.txt > results/results_1GB.txt
+./my.bin bigFile2.txt > results/results_2B.txt
