@@ -69,11 +69,29 @@ double getSum(const char * filename) {
   return result;
 }
 
+template <typename VectorType>
+void getAllPrefixSums(const char * inputFilename, const char * outputFilename) {
+  syscall_file inputFile(inputFilename, file::RDONLY || file::DIRECT);
+  syscall_file outputFile(outputFilename, file::RDWR);
+
+  VectorType v_read(&inputFile);
+  VectorType v_write(&outputFile);
+
+  double result = 0;
+  typedef typename VectorType::const_iterator c_it;
+  for (c_it it = v_read.begin(); it != v_read.end(); ++it) {
+    result += *it;
+    v_write.push_back(result);
+  }
+
+}
+
 int main(int argc, char * argv[]) {
   if (argc < 2) {
     cout << "No filename!" << endl;
     return 0;
   }
+  
   #define RUN(SIZE, BLOCKS_IN_PAGE) \
   {\
     typedef stxxl::VECTOR_GENERATOR<float, BLOCKS_IN_PAGE, 1, BLOCK_SIZE_##SIZE>::result vector_type;\
@@ -82,6 +100,31 @@ int main(int argc, char * argv[]) {
     cout << getSum<vector_type>(argv[1]) << endl;\
   }
 
+ #define RUN_ALL_PREFIX_SUM(SIZE, BLOCKS_IN_PAGE) \
+  {\
+    typedef stxxl::VECTOR_GENERATOR<float, BLOCKS_IN_PAGE, 1, BLOCK_SIZE_##SIZE>::result vector_type;\
+    cout << "Prefix sums: " << #SIZE << " Blocks in page: " << #BLOCKS_IN_PAGE << endl;\
+    Profiler profiler;\
+    getAllPrefixSums<vector_type>(argv[1], argv[2]);\
+  }  
+
+  RUN_ALL_PREFIX_SUM(4KB, 1)
+  RUN_ALL_PREFIX_SUM(8KB, 1)
+  RUN_ALL_PREFIX_SUM(16KB, 1)
+  RUN_ALL_PREFIX_SUM(32KB, 1)
+  RUN_ALL_PREFIX_SUM(64KB, 1)
+  RUN_ALL_PREFIX_SUM(128KB, 1)
+  RUN_ALL_PREFIX_SUM(256KB, 1)
+  RUN_ALL_PREFIX_SUM(512KB, 1)
+  RUN_ALL_PREFIX_SUM(1024KB, 1)
+  RUN_ALL_PREFIX_SUM(2MB, 1)
+  RUN_ALL_PREFIX_SUM(4MB, 1)
+  RUN_ALL_PREFIX_SUM(8MB, 1)
+  RUN_ALL_PREFIX_SUM(16MB, 1)
+  RUN_ALL_PREFIX_SUM(32MB, 1)
+  RUN_ALL_PREFIX_SUM(34MB, 1)
+  RUN_ALL_PREFIX_SUM(36MB, 1)
+  
   RUN(4KB, 1)
   RUN(8KB, 1)
   RUN(16KB, 1)
